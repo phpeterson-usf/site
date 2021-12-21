@@ -1,0 +1,9 @@
+---
+layout: post
+topics: Course introduction
+date:   2021-12-01 22:07:55 -0800
+slides: https://www.cs.usfca.edu
+notes1: "https://drive.google.com/file/d/161xnLoR545iI71DWV0LuQV3e0RFWGSL4/view?usp=sharing"
+video1: "https://echo360.org/media/33a9eb72-e604-40f7-b784-78a0ae3aa5bc"
+---
+

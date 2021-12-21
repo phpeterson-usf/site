@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+
+  <h1 class="page-heading">Timeline</h1>
+
+  {%- if site.posts.size > 0 -%}
+	{%- assign date_format = "%b %-d, %Y" %}
+	<table>
+    <tr>
+      <th>Date</th>
+      <th>Topics</th>
+      <th>Materials</th>
+    </tr>
+		{%- for row in site.posts %}
+      <tr>
+        <td>
+          {{ row.date | date: date_format }}
+        </td>
+        <td>
+          {{ row.topics }} 
+          {%- if row.slides -%}
+            <a href="{{ row.slides }}"> (slides)</a>
+          {%-endif %}
+        </td>
+        <td>
+          {%- if row.notes1 %}
+            <a href="{{ row.notes1 }}">s1-notes</a>
+          {%- endif %}
+          {%- if row.video1 %}
+            <a href="{{ row.video1 }}">s1-video</a>
+          {%- endif %}
+          {%- if row.notes2 %}
+            <a href="{{ row.notes2 }}">s2-notes</a>
+          {%- endif %}
+          {%- if row.video2 %}
+            <a href="{{ row.video2 }}">s2-video</a>
+          {%- endif %}
+        </td>
+      </tr>
+		{%- endfor %}
+	</table>
+{%- endif %}
+
+
+</div>
