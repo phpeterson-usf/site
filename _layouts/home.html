@@ -21,9 +21,9 @@ layout: default
           {{ row.date | date: date_format }}
         </td>
         <td>
-          {{ row.topics }} 
+          {{ row.topics | markdownify }} 
           {%- if row.slides -%}
-            <a href="{{ row.slides }}"> (slides)</a>
+            <a href="{{ row.slides }}">slides</a>
           {%-endif %}
         </td>
         <td>
