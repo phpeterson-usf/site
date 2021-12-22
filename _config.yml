@@ -22,7 +22,7 @@ title: Course Name
 author: Instructor Name
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Template site for my classes
+  Template site for my class
 baseurl: /site  # the subpath of your site, e.g. /blog
 favicon: favicon.ico  # Icon displayed in the tab
 due_date_format: "%a, %b %-d, %Y at %I:%M %p" # Thu, Jan 27, 2022 at 11:59 PM
