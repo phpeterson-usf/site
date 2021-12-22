@@ -45,7 +45,7 @@ collections:
 
 reveal:
   transition: slide
-  theme: white
+  theme: dons
   number: true
   numberType: c
 

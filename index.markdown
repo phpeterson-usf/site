@@ -10,6 +10,9 @@ layout: home
 
 int main(int argc, char **argv) {
     /* a comment */
+	for (int i = 0; i < argc; i++) {
+		printf("hello world\n");
+	}
     return 0;
 }
 ```

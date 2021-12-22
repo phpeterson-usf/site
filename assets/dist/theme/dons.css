@@ -33,14 +33,17 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --link-color: #2a76dd;
   --link-color-hover: #6ca0e8;
   --selection-background-color: #98bdef;
-  --selection-color: #fff; }
+  --selection-color: #fff; 
+  --dons-green: #00543C;
+  --dons-teal: #008575; }
 
 .reveal-viewport {
   background: #fff;
   background-color: #fff; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  /* PHP font-family: "Source Sans Pro", Helvetica, sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 42px;
   font-weight: normal;
   color: #222; }
@@ -71,16 +74,18 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: /* PHP "Source Sans Pro",*/ Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  /* PHP text-transform: uppercase; */
   text-shadow: none;
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  /* PHP font-size: 2.5em; */
+  color: var(--dons-green);
+  font-size: 2.0em; }
 
 .reveal h2 {
   font-size: 1.6em; }
@@ -268,14 +273,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #2a76dd; }
+  /* PHP color: #2a76dd; } */
+  color: var(--dons-teal); }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #2a76dd; }
+  /* PHP color: #2a76dd; } */
+  color: var(--dons-teal) }
 
 /*********************************************
  * PRINT BACKGROUND
