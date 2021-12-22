@@ -4,3 +4,12 @@
 
 layout: home
 ---
+
+```c
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+    /* a comment */
+    return 0;
+}
+```
