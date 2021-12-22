@@ -13,6 +13,6 @@ int main(int argc, char **argv) {
 	for (int i = 0; i < argc; i++) {
 		printf("hello world\n");
 	}
-    return 0;
+    return -1;
 }
 ```
