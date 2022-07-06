@@ -11,7 +11,7 @@
 * It uses the [Jekyll](https://jekyllrb.com/) static site generator, which can be hosted on [GitHub Pages](https://pages.github.com/) 
 * I lightly modified the [Minima theme](https://github.com/jekyll/minima) to use school colors
 * Each row in the timeline is a pseudo blog post, using only the [front matter](https://jekyllrb.com/docs/front-matter/)
-* I used [jens-na's work](https://github.com/jens-na/jekyll-reveal) as a starting point for integrating Jekyll and [RevealJS](https://revealjs.com/) slides
+* I used [sylshare's work](https://github.com/sylhare/Reveal-Jekyll) as a starting point for integrating Jekyll and [RevealJS](https://revealjs.com/) slides (see presentation format)
 * To use this approach for your class site, simply create a new repo using this repo as a template
 
 ## Ruby Environment
