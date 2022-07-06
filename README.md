@@ -1,22 +1,22 @@
 ## Why
 
-* This is a template repo for classes I teach at the [University of San Francisco](www.cs.usfca.edu)
+* This is a template repo for classes I teach at the [University of San Francisco](https://www.cs.usfca.edu)
 * My objectives were to 
 	* Make a timeline view of the course materials
-	* Integrate slide material (hat-tip to Berkeley's [CS 61a](https://cs61a.org/)
+	* Integrate slide material (hat-tip to Berkeley's [CS 61a](https://cs61a.org/))
 	* Create a simpler information design than I could get using Google Sites (no support for `<table>`)
 
 ## How It Works
 
-* It uses the [Jekyll](https://jekyllrb.com/) blogging system, which can be hosted on [GitHub Pages](https://pages.github.com/) 
+* It uses the [Jekyll](https://jekyllrb.com/) static site generator, which can be hosted on [GitHub Pages](https://pages.github.com/) 
 * I lightly modified the [Minima theme](https://github.com/jekyll/minima) to use school colors
-* Each row in the timeline is a blog post, using only the [front matter](https://jekyllrb.com/docs/front-matter/)
+* Each row in the timeline is a pseudo blog post, using only the [front matter](https://jekyllrb.com/docs/front-matter/)
 * I used [jens-na's work](https://github.com/jens-na/jekyll-reveal) as a starting point for integrating Jekyll and [RevealJS](https://revealjs.com/) slides
-* To use this approach for your class site, simply create a new repo using this one as a template
+* To use this approach for your class site, simply create a new repo using this repo as a template
 
 ## Ruby Environment
 
-1. Since Jekyll is built in Ruby, you'll need Ruby on your local machine
+1. Since Jekyll is written in Ruby, you'll need Ruby on your local machine
 	1. Well, *someone* needs Ruby. Once you get this going, adding blog posts is easy to do without a local test/dev environment
 1. I run on macOS, and use [rbenv](https://github.com/rbenv/rbenv) to avoid messing around with the system Ruby installation
 	```sh
@@ -42,9 +42,9 @@
 1. Run the local web server to test
 	```sh
 	% cd your-site
-	% jekyll serve
+	% jekyll serve --livereload
 	```
-1. Now you can browse to `localhost:4000/your-site/` and see the web site. New and modified Markdown files are auto-recompiled (though the browser doesn't auto-reload)
+1. Now you can browse to `localhost:4000/your-site/` and see the web site. New and modified Markdown files are auto-recompiled and your browser auto-reloads
 
 ## GitHub Configuration
 
@@ -59,6 +59,6 @@
 ## Adding Content
 
 1. We make a new small file in `_posts/` for every class meeting with the topics and materials. Jekyll combines those into the big timeline using the template in `_layouts/home.html`
-	1. I make my TAs Zoom co-hosts so they get notified when recordings are available, and can push a new post with the sharable video link.
-1. `_config.yml` contains Jekyll collections for assignments (`_assignments/`) and slides (`_slides/`). Those will be compiled/templated using their respective layouts (`_layouts/`) 
-1. All of the compiled content goes into `_assets/` from which it is served
+	1. My TAs are Zoom co-hosts so they get notified when recordings are available, and can paste the sharable video link into a new post
+1. `_config.yml` contains Jekyll collections for files in `_assignments/` and `_slides/`. Those will be compiled/templated using their respective layouts in `_layouts/` 
+1. All of the compiled HTML and CSS assets go into `_assets/`
