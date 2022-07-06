@@ -61,4 +61,4 @@
 1. We make a new small file in `_posts/` for every class meeting with the topics and materials. Jekyll combines those into the big timeline using the template in `_layouts/home.html`
 	1. My TAs are Zoom co-hosts so they get notified when recordings are available, and can paste the sharable video link into a new post
 1. `_config.yml` contains Jekyll collections for files in `_assignments/` and `_slides/`. Those will be compiled/templated using their respective layouts in `_layouts/` 
-1. All of the compiled HTML and CSS assets go into `_assets/`
+1. All of the compiled HTML and CSS assets go into `_site/`
