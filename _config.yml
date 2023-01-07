@@ -21,9 +21,10 @@
 title: Course Name
 author: Instructor Name
 email: your-email@example.com
-baseurl: /site  # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 favicon: favicon.ico  # Icon displayed in the tab
 due_date_format: "%a, %b %-d, %Y at %I:%M %p" # Thu, Jan 27, 2022 at 11:59 PM
+future: true  # allow posts with future dates
 
 # Build settings
 remote_theme: jekyll/minima@7a326eb
