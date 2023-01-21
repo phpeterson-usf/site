@@ -50,11 +50,14 @@
 
 1. I create my class web site repo in my semester GitHub Classroom organization
 1. GitHub Pages uses the naming convention `<org>/<org>.github.io`, e.g. `https://cs221-s22/cs221-s22.github.io`
+1. Create a `master` branch in addition to the default `main` branch
 1. In your repo Settings, use the Pages item in the sidebar to serve from the `master` branch at the root `/`
 1. When you push changes to the `main` branch on your site, the script in `your-site/.github/workflows` will run and GitHub Pages will compile the Markdown and SCSS to HTML and CSS, committing those to the `master` branch. 
 1. The compilation happens on a push, not dynamically as pages are loaded. It can take ~10 minutes to compile your changes and propagate the results to GitHub Pages.
 1. Your site will be available at `https://your-site.github.io`
 1. You can also set up a custom domain if you have control of your DNS, e.g. `cs221.cs.usfca.edu`
+    1. You'll need to set the `CNAME` in DNS to the GitHub Pages URL
+    1. You'll need to create a `CNAME` file in the root directory containing the custom URL, e.g. `cs221.cs.usfca.edu`
 
 ## Adding Content
 
