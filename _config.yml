@@ -43,6 +43,12 @@ collections:
     output: true
     permalink: /:collection/:name
 
+ordered-categories:
+  - "Fourth Thing"
+  - "Third Thing"
+  - "Second Thing"
+  - "First Thing"
+
 reveal:
   transition: slide
   theme: dons

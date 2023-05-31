@@ -8,6 +8,7 @@
   }
   
   .site-title, .site-title:visited {
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: white;
     font-weight: 400;
   }
@@ -28,4 +29,35 @@
   .due-date {
     color: $dons-red;
     font-weight: bold;
+  }
+
+  .capsule-assignment, .capsule-assignment:visited, .capsule-assignment:hover {
+    color: $dons-red;
+  }
+
+  .capsule-generic, .capsule-generic:visited, .capsule-generic:hover {
+    color: $dons-teal;
+  }
+
+  .capsule-1, .capsule-1:visited, .capsule-1:hover {
+    color: $dons-orange;
+  }
+
+  .capsule-2, .capsule-2:visited, .capsule-2:hover {
+    color: $dons-lime;
+  }
+
+  .capsule {
+      background: white;
+      border: 1px solid;
+      border-radius: 0.25em;
+      font-family: sans-serif;
+      font-size: 0.8em;
+      text-transform: capitalize;
+      padding: 2px;
+  }
+
+  body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
   }
