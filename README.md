@@ -44,7 +44,7 @@
 	% cd your-site
 	% jekyll serve --livereload
 	```
-1. Now you can browse to `localhost:4000/your-site/` and see the web site. New and modified Markdown files are auto-recompiled and your browser auto-reloads
+1. Now you can browse to `localhost:4000` and see the web site. New and modified Markdown files are auto-recompiled and your browser auto-reloads
 
 ## GitHub Configuration
 
