@@ -65,4 +65,4 @@
 	1. My TAs are Zoom co-hosts so they get notified when recordings are available, and can paste the sharable video link into a new post
 1. `_config.yml` contains Jekyll collections for files in `_assignments/` and `_slides/`. Those will be compiled/templated using their respective layouts in `_layouts/` 
 1. RevealJS provides [documentation](https://revealjs.com/markdown/) for authoring in Markdown
-1. All of the compiled HTML and CSS assets go into `_site/`
+1. All of the compiled HTML and CSS assets go into `_site/` 
