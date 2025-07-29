@@ -5,7 +5,7 @@ permalink: /help/
 ---
 
 ### Online Help
-1. Piazza, CampusWire, ...
+1. CampusWire
 
 ### Drop-In Office Hours
 
